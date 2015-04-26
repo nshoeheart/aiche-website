@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a277c2e9-2712-49a3-9117-9d82e944f7a5" name="Default" comment="" />
+    <list default="true" id="a277c2e9-2712-49a3-9117-9d82e944f7a5" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter 2011-2012.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2011Fall2012SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2005.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2005FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2007.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2007FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2008-Spring 2009.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2008Fall2009SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2009.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2009FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2010.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2010FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2012.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2012FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Fall 2013.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2013FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2006.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2006SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2007.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2007SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2008.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2008SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2010.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2010SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2011.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2011SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AIChE Newsletter Spring 2013.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2013SpringNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/AiChE Newsletter Fall 2006.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2006FallNews.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/newsletters/Fugacity Spring 2003.pdf" afterPath="$PROJECT_DIR$/docs/newsletters/2003SpringNews.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsletters.html" afterPath="$PROJECT_DIR$/newsletters.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AIChE Website.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56666666" vertical-offset="1305" max-vertical-offset="2205">
+            <state vertical-scroll-proportion="-21.25" vertical-offset="1305" max-vertical-offset="2205">
               <caret line="121" column="71" selection-start-line="121" selection-start-column="71" selection-end-line="121" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,16 +105,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsletters.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newsletters.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsletters.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.583334" vertical-offset="628" max-vertical-offset="1515">
-              <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.95" vertical-offset="1155" max-vertical-offset="2115">
+              <caret line="134" column="4" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -175,6 +195,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -188,8 +211,8 @@
         <option value="$PROJECT_DIR$/daycamps.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/seminar.html" />
-        <option value="$PROJECT_DIR$/newsletters.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/newsletters.html" />
       </list>
     </option>
   </component>
@@ -215,7 +238,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -279,6 +302,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIChE Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIChE Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,7 +355,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
@@ -665,24 +712,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newsletters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.583334" vertical-offset="628" max-vertical-offset="1515">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56666666" vertical-offset="1305" max-vertical-offset="2205">
+        <state vertical-scroll-proportion="-21.25" vertical-offset="1305" max-vertical-offset="2205">
           <caret line="121" column="71" selection-start-line="121" selection-start-column="71" selection-end-line="121" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -692,6 +724,21 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsletters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95" vertical-offset="1155" max-vertical-offset="2115">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
