@@ -83,39 +83,36 @@
 	<div class="col-sm-12 well">
 		<h4 class="underline">Newsletters</h4>
 		<p>Our newsletters provide an overview of as well as insight on the recent events of the Chemical Engineering Department at the University of Iowa. Select a semester below to view its news and notes.</p>
-		<p><b>Note: Currently, you can only access the Fall 2013 newsletter. The others listed in the sidebar will become available as soon as the webmaster figures out the necessary javascript.</b></p>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-12">
 	<div class="col-sm-2">
-		<div class="well" style="max-height:700px; overflow-y:scroll;">
+		<div id="newsletterSelect" class="well" style="max-height:700px; overflow-y:scroll;">
 		<ul class="nav nav-pills nav-stacked">
-			<li role="presentation" class="active"><a href="#">Fall 2013</a></li>
-			<li role="presentation"><a href="#">Spring 2013</a></li>
-			<li role="presentation"><a href="#">Fall 2012</a></li>
-			<li role="presentation"><a href="#">Fall 2011 - Spring 2012</a></li>
-			<li role="presentation"><a href="#">Spring 2011</a></li>
-			<li role="presentation"><a href="#">Fall 2010</a></li>
-			<li role="presentation"><a href="#">Spring 2010</a></li>
-			<li role="presentation"><a href="#">Fall 2009</a></li>
-			<li role="presentation"><a href="#">Fall 2008 - Spring 2009</a></li>
-			<li role="presentation"><a href="#">Spring 2008</a></li>
-			<li role="presentation"><a href="#">Fall 2007</a></li>
-			<li role="presentation"><a href="#">Spring 2007</a></li>
-			<li role="presentation"><a href="#">Fall 2006</a></li>
-			<li role="presentation"><a href="#">Spring 2006</a></li>
-			<li role="presentation"><a href="#">Fall 2005</a></li>
-			<li role="presentation"><a href="#">Spring 2003</a></li>
+			<li id="fall2013" role="presentation" class="active"><a href="javascript:void(0);">Fall 2013</a></li>
+			<li id="spring2013" role="presentation"><a href="javascript:void(0);">Spring 2013</a></li>
+			<li id="fall2012" role="presentation"><a href="javascript:void(0);">Fall 2012</a></li>
+			<li id="fall2011spring2012" role="presentation"><a href="javascript:void(0);">Fall 2011 - Spring 2012</a></li>
+			<li id="spring2011" role="presentation"><a href="javascript:void(0);">Spring 2011</a></li>
+			<li id="fall2010" role="presentation"><a href="javascript:void(0);">Fall 2010</a></li>
+			<li id="spring2010" role="presentation"><a href="javascript:void(0);">Spring 2010</a></li>
+			<li id="fall2009" role="presentation"><a href="javascript:void(0);">Fall 2009</a></li>
+			<li id="fall2008spring2009" role="presentation"><a href="javascript:void(0);">Fall 2008 - Spring 2009</a></li>
+			<li id="spring2008" role="presentation"><a href="javascript:void(0);">Spring 2008</a></li>
+			<li id="fall2007" role="presentation"><a href="javascript:void(0);">Fall 2007</a></li>
+			<li id="spring2007" role="presentation"><a href="javascript:void(0);">Spring 2007</a></li>
+			<li id="fall2006" role="presentation"><a href="javascript:void(0);">Fall 2006</a></li>
+			<li id="spring2006" role="presentation"><a href="javascript:void(0);">Spring 2006</a></li>
+			<li id="fall2005" role="presentation"><a href="javascript:void(0);">Fall 2005</a></li>
+			<li id="spring2003" role="presentation"><a href="javascript:void(0);">Spring 2003</a></li>
 		</ul>
 		</div>
 	</div>
 	<div class="col-sm-10">
 		<div class="container-fluid">
-		    <div class="col-sm-12 well" style="height:700px;">
-			    <object id="newsletter" data="docs/newsletters/2013FallNews.pdf" type="application/pdf" height="650px;" width="100%">
-				    <p>It appears you do not have a PDF plugin for this browser. Alternatively, you can download the file by <a href="2013FallNews.pdf">clicking here</a>.</p>
-			    </object>
+		    <div id="newspdf" class="col-sm-12 well" style="height:700px;">
+
 		    </div>
 		</div>
 	</div>
@@ -137,8 +134,104 @@
 </body>
 </html>
 
-<!--<script type="text/javascript">-->
-	<!--window.onload = function (){-->
-		<!--var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('#newsletter');-->
-	<!--};-->
-<!--</script>-->
+<script type="text/javascript">
+	window.onload = function (){
+		var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('newspdf');
+	};
+
+	$('#fall2013').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2013').addClass('active');
+	});
+
+	$('#spring2013').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2013SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2013').addClass('active');
+	});
+
+	$('#fall2012').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2012FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2012').addClass('active');
+	});
+
+	$('#fall2011spring2012').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2011Fall2012SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2011spring2012').addClass('active');
+	});
+
+	$('#spring2011').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2011SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2011').addClass('active');
+	});
+
+	$('#fall2010').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2010FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2010').addClass('active');
+	});
+
+	$('#spring2010').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2010SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2010').addClass('active');
+	});
+
+	$('#fall2009').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2009FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2009').addClass('active');
+	});
+
+	$('#fall2008spring2009').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2008Fall2009SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2008spring2009').addClass('active');
+	});
+
+	$('#spring2008').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2008SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2008').addClass('active');
+	});
+
+	$('#fall2007').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2007FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2007').addClass('active');
+	});
+
+	$('#spring2007').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2007SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2007').addClass('active');
+	});
+
+	$('#fall2006').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2006FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2006').addClass('active');
+	});
+
+	$('#spring2006').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2006SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2006').addClass('active');
+	});
+
+	$('#fall2005').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2005FallNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2005').addClass('active');
+	});
+
+	$('#spring2003').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2003SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#spring2003').addClass('active');
+	});
+</script>
