@@ -90,7 +90,8 @@
 	<div class="col-sm-2">
 		<div id="newsletterSelect" class="well" style="max-height:700px; overflow-y:scroll;">
 		<ul class="nav nav-pills nav-stacked">
-			<li id="fall2013" role="presentation" class="active"><a href="javascript:void(0);">Fall 2013</a></li>
+			<li id="fall2014spring2015" role="presentation" class="active"><a href="javascript:void(0);">Fall 2014 - Spring 2015</a>
+			<li id="fall2013" role="presentation"><a href="javascript:void(0);">Fall 2013</a></li>
 			<li id="spring2013" role="presentation"><a href="javascript:void(0);">Spring 2013</a></li>
 			<li id="fall2012" role="presentation"><a href="javascript:void(0);">Fall 2012</a></li>
 			<li id="fall2011spring2012" role="presentation"><a href="javascript:void(0);">Fall 2011 - Spring 2012</a></li>
@@ -136,8 +137,14 @@
 
 <script type="text/javascript">
 	window.onload = function (){
-		var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('newspdf');
+		var pdf = new PDFObject({ url: "docs/newsletters/2014Fall2015SpringNews.pdf" }).embed('newspdf');
 	};
+
+	$('#fall2014spring2015').click(function () {
+		var pdf = new PDFObject({ url: "docs/newsletters/2014Fall2015SpringNews.pdf" }).embed('newspdf');
+		$('#newsletterSelect>ul>li.active').removeClass('active');
+		$('#fall2014spring2015').addClass('active');
+	});
 
 	$('#fall2013').click(function () {
 		var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('newspdf');
