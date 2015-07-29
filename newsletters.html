@@ -89,25 +89,27 @@
 	<div class="col-sm-12">
 	<div class="col-sm-2">
 		<div id="newsletterSelect" class="well" style="max-height:700px; overflow-y:scroll;">
+		
 		<ul class="nav nav-pills nav-stacked">
-			<li id="fall2014spring2015" role="presentation" class="active"><a href="javascript:void(0);">Fall 2014 - Spring 2015</a>
-			<li id="fall2013" role="presentation"><a href="javascript:void(0);">Fall 2013</a></li>
-			<li id="spring2013" role="presentation"><a href="javascript:void(0);">Spring 2013</a></li>
-			<li id="fall2012" role="presentation"><a href="javascript:void(0);">Fall 2012</a></li>
-			<li id="fall2011spring2012" role="presentation"><a href="javascript:void(0);">Fall 2011 - Spring 2012</a></li>
-			<li id="spring2011" role="presentation"><a href="javascript:void(0);">Spring 2011</a></li>
-			<li id="fall2010" role="presentation"><a href="javascript:void(0);">Fall 2010</a></li>
-			<li id="spring2010" role="presentation"><a href="javascript:void(0);">Spring 2010</a></li>
-			<li id="fall2009" role="presentation"><a href="javascript:void(0);">Fall 2009</a></li>
-			<li id="fall2008spring2009" role="presentation"><a href="javascript:void(0);">Fall 2008 - Spring 2009</a></li>
-			<li id="spring2008" role="presentation"><a href="javascript:void(0);">Spring 2008</a></li>
-			<li id="fall2007" role="presentation"><a href="javascript:void(0);">Fall 2007</a></li>
-			<li id="spring2007" role="presentation"><a href="javascript:void(0);">Spring 2007</a></li>
-			<li id="fall2006" role="presentation"><a href="javascript:void(0);">Fall 2006</a></li>
-			<li id="spring2006" role="presentation"><a href="javascript:void(0);">Spring 2006</a></li>
-			<li id="fall2005" role="presentation"><a href="javascript:void(0);">Fall 2005</a></li>
-			<li id="spring2003" role="presentation"><a href="javascript:void(0);">Spring 2003</a></li>
+			<li class="pdfLink active" data-pdf-name="2014Fall2015SpringNews" role="presentation"><a href="javascript:void(0);">Fall 2014 - Spring 2015</a>
+			<li class="pdfLink" data-pdf-name="2013FallNews" role="presentation"><a href="javascript:void(0);">Fall 2013</a></li>
+			<li class="pdfLink" data-pdf-name="2013SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2013</a></li>
+			<li class="pdfLink" data-pdf-name="2012FallNews" role="presentation"><a href="javascript:void(0);">Fall 2012</a></li>
+			<li class="pdfLink" data-pdf-name="2011Fall2012SpringNews" role="presentation"><a href="javascript:void(0);">Fall 2011 - Spring 2012</a></li>
+			<li class="pdfLink" data-pdf-name="2011SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2011</a></li>
+			<li class="pdfLink" data-pdf-name="2010FallNews" role="presentation"><a href="javascript:void(0);">Fall 2010</a></li>
+			<li class="pdfLink" data-pdf-name="2010SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2010</a></li>
+			<li class="pdfLink" data-pdf-name="2009FallNews" role="presentation"><a href="javascript:void(0);">Fall 2009</a></li>
+			<li class="pdfLink" data-pdf-name="2008Fall2009SpringNews" role="presentation"><a href="javascript:void(0);">Fall 2008 - Spring 2009</a></li>
+			<li class="pdfLink" data-pdf-name="2008SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2008</a></li>
+			<li class="pdfLink" data-pdf-name="2007FallNews" role="presentation"><a href="javascript:void(0);">Fall 2007</a></li>
+			<li class="pdfLink" data-pdf-name="2007SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2007</a></li>
+			<li class="pdfLink" data-pdf-name="2006FallNews" role="presentation"><a href="javascript:void(0);">Fall 2006</a></li>
+			<li class="pdfLink" data-pdf-name="2006SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2006</a></li>
+			<li class="pdfLink" data-pdf-name="2005FallNews" role="presentation"><a href="javascript:void(0);">Fall 2005</a></li>
+			<li class="pdfLink" data-pdf-name="2003SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2003</a></li>
 		</ul>
+
 		</div>
 	</div>
 	<div class="col-sm-10">
@@ -136,105 +138,10 @@
 		var pdf = new PDFObject({ url: "docs/newsletters/2014Fall2015SpringNews.pdf" }).embed('newspdf');
 	};
 
-	$('#fall2014spring2015').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2014Fall2015SpringNews.pdf" }).embed('newspdf');
+	$('.pdfLink').click(function () {
+		var pdfUrl = "docs/newsletters/".concat(this.dataset.pdfName, ".pdf");
+		var pdf = new PDFObject({ url: pdfUrl }).embed('newspdf');
 		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2014spring2015').addClass('active');
-	});
-
-	$('#fall2013').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2013FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2013').addClass('active');
-	});
-
-	$('#spring2013').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2013SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2013').addClass('active');
-	});
-
-	$('#fall2012').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2012FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2012').addClass('active');
-	});
-
-	$('#fall2011spring2012').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2011Fall2012SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2011spring2012').addClass('active');
-	});
-
-	$('#spring2011').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2011SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2011').addClass('active');
-	});
-
-	$('#fall2010').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2010FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2010').addClass('active');
-	});
-
-	$('#spring2010').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2010SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2010').addClass('active');
-	});
-
-	$('#fall2009').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2009FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2009').addClass('active');
-	});
-
-	$('#fall2008spring2009').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2008Fall2009SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2008spring2009').addClass('active');
-	});
-
-	$('#spring2008').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2008SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2008').addClass('active');
-	});
-
-	$('#fall2007').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2007FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2007').addClass('active');
-	});
-
-	$('#spring2007').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2007SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2007').addClass('active');
-	});
-
-	$('#fall2006').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2006FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2006').addClass('active');
-	});
-
-	$('#spring2006').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2006SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2006').addClass('active');
-	});
-
-	$('#fall2005').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2005FallNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#fall2005').addClass('active');
-	});
-
-	$('#spring2003').click(function () {
-		var pdf = new PDFObject({ url: "docs/newsletters/2003SpringNews.pdf" }).embed('newspdf');
-		$('#newsletterSelect>ul>li.active').removeClass('active');
-		$('#spring2003').addClass('active');
+		$(this).addClass('active');
 	});
 </script>
