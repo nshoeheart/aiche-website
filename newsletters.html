@@ -117,7 +117,8 @@
 				<div id="newsletterSelect" class="well" style="max-height:1000px; overflow-y:scroll;">
 		
 					<ul class="nav nav-pills nav-stacked">
-						<li class="pdfLink active" data-pdf-name="2014Fall2015SpringNews" role="presentation"><a href="javascript:void(0);">Fall 2014 - Spring 2015</a>
+						<li class="pdfLink active" data-pdf-name="2015FallNews" role="presentation"><a href="javascript:void(0);">Fall 2015</a></li>
+						<li class="pdfLink" data-pdf-name="2014Fall2015SpringNews" role="presentation"><a href="javascript:void(0);">Fall 2014 - Spring 2015</a>
 						<li class="pdfLink" data-pdf-name="2013FallNews" role="presentation"><a href="javascript:void(0);">Fall 2013</a></li>
 						<li class="pdfLink" data-pdf-name="2013SpringNews" role="presentation"><a href="javascript:void(0);">Spring 2013</a></li>
 						<li class="pdfLink" data-pdf-name="2012FallNews" role="presentation"><a href="javascript:void(0);">Fall 2012</a></li>
@@ -180,7 +181,7 @@
 	});
 
 	window.onload = function (){
-		var pdf = new PDFObject({ url: "docs/newsletters/2014Fall2015SpringNews.pdf" }).embed('newspdf');
+		var pdf = new PDFObject({ url: "docs/newsletters/2015FallNews.pdf" }).embed('newspdf');
 	};
 
 	$('.pdfLink').click(function () {
