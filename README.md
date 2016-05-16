@@ -1,0 +1,18 @@
+# aiche-website
+This is the website for the University of Iowa's AIChE student chapter. Direct any questions to the webmaster listed on [this page](http://user.engineering.uiowa.edu/~aiche/contact.html "AIChE UIowa Contact Page"), or nathan@shoeheart.com as a last resort.
+
+For the new webmasters: congratulations on being elected! You are now solely responsible for keeping the content on our website up to date, and coming up with new ideas to make the site look even better.
+
+# Getting Started
+To get you started, you will need to do a couple things. First, you need access to the network drive that contains the website files. In order to do this, you need to make a visit to Iowa's Engineering Computer Services (ECS) on the southwest corener of the 1st floor of the Seamans Center and request access. They will make it so your HawkID is authorized to access the network drive. In addition, make sure to get the URL to the drive. Google "mapping a network drive on a [Mac/PC]" depending on your operating system and follow the steps there. Note: if you are off-campus, you must connect to the University of Iowa's VPN in order to be able to access the drive. Download and install the "Cisco AnyConnect Secure Mobility Client" from the UI ITS website and run it if you need off-campus access.
+
+Secondly, you need to install GitHub on your local machine and create an account. Using this source control system is **VERY** important for maintaining backups of the site as well as having a record of all the changes made to it in case one needs to be reverted at a later date. Once you have made an account, request access by emailing nathan@shoeheart.com and CCing david-murhammer@uiowa.edu with your name and GitHub username. This way you can be made a contributor to the repository and push changes without approval each time. After this, clone the repository to your machine. You can edit the code here and view the HTML files in your browser just by opening them. Once you have it in a state that is ready to be published to the official webpage, commit and push the files to this repository (all of this is Googleable). As a reminder, keeping a copy of the current source code is **VERY** important, and **MUST** be pushed to this repository before publishing the edited files. Once the changes have been pushed, then you can copy the files to the remote drive. It is this action that makes your changes viewable to the public at http://user.engineering.uiowa.edu/~aiche/index.html.
+
+# Editing the Website
+The website hosted in this repository is currently built with raw HTML along with the Bootstrap 3 CSS framework and some Javascript for the newsletter page. It is suggested to familiarize yourself with HTML and Bootstrap 3 especially, as the vast majority of the syntax on the site relates to both of these. The template.html file forms the basic layout of the current site without any actual page content. This is meant to make life easier when creating a new page, and make it easier to keep track of the main website theme. Hopefully this opens the door for an ambitious individual to start using a templating engine in the future such as Jekyll. This way, changing a link will not require a whole load of copying and pasting (which is the current situation).
+
+# Other Tips
+- The home page must always be contained in a file called index.html
+- Make sure to always update the links on each page if a link is added, changed, or removed
+- Be sure to update the template.html file with the current base format of the website
+- Get really good at Googling things, because that will help you out immensely in figuring out how to edit this site
